@@ -1,0 +1,146 @@
+/*Common elements*/
+body {
+    font-size: 50%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: black url(images/pawprints.jpg) no-repeat fixed top center;
+    padding: 10px;
+    margin: 0;
+   -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+/*Header*/
+header {
+
+    padding: 2.5em;
+    margin: 2em;
+    background: #39150C url(images/multidogs.jpg) center 0px;
+    }
+    header h1 {
+    font-family: "Georgia, serif";
+    color: black;
+    font-size: 8em;
+    letter-spacing: -0.025em;
+    margin: 0;    
+  
+    }
+    header h2 {
+    font-weight: 300;
+    font-size: 4em;
+    color: black;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    
+    }
+
+    
+    .header ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+    
+    header #contact info {
+        float: left;
+    }
+    
+    header #contact info h3 {
+        margin: 0;
+    }
+    
+    header nav {
+        float: right;
+    }
+    
+    header a:hover(:active) {
+        background-color: #cd5c5c;
+        color: black;
+        font-weight: bold;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #ffebcd;
+    }
+    
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    header button {
+        background-color: ivory;
+        color: black;
+        padding: 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 5px #999;
+    }
+    
+    li {
+        border-right: 1px solid ivory;
+    }
+    
+    li:last-child {
+        border-right: none;
+    }
+ 
+#sidebar {
+ width: 500px;
+ float: right;
+ position: relative;
+ display: block;
+ background-color: #fff;
+ margin: 3px;
+ padding: 3px;
+ border-left: #00cccc solid 5px;
+ border-right: #00cccc solid 5px;
+ font-size: 14px;
+}
+
+
+#main {
+     
+    background-color: #00cccc
+    margin: 2px;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 2em;
+    }
+
+   section div.panel{
+    float: left;
+    position: relative;
+    width: 275px;
+    margin: 2px;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+   }
+   section div.panel img.dogType {
+    width: 100%;
+   }
+
+   
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: #00cccc;   
+}
